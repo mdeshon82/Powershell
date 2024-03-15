@@ -2,20 +2,20 @@
 Import-Module ActiveDirectory
 
 # Define your domain controllers
-$domainControllers = @("ldc-fb-dc-01.forchtbank.local", "cdc-fb-dc-01.forchtbank.local", "aznc-fb-dc-01.forchtbank.local")
+$domainControllers = @("dc1", "dc2", "dc3")
 
 # Define the list of users
 $users = @(
-    "MSOL_89c7e66ac149",
-    "SVCFBSQL",
-    "ediscovery",
-    "remotecredit",
-    "svcfbcopier",
-    "DebitCard",
-    "DepHelp",
-    "WiresOB",
-    "NewAcctsExcep",
-    "testmfa"
+    "user",
+    "user",
+    "user",
+    "user",
+    "user",
+    "user",
+    "user",
+    "user",
+    "user",
+    "user"
 )
 
 # Initialize an empty array to store results
